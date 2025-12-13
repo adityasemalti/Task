@@ -6,7 +6,7 @@ const Sidebar = () => {
   const user = useUser();
 
   return (
-    <aside className="h-screen w-60 bg-white/30 backdrop-blur-lg border-r border-white/20 shadow-xl p-6 flex flex-col gap-8">
+    <aside className="h-screen  bg-white/30 backdrop-blur-lg border-r border-white/20 shadow-xl p-6 flex flex-col gap-8">
 
       <div className="text-2xl font-extrabold text-gray-900 tracking-tight">
         Dashboard<span className="text-blue-600">.</span>
